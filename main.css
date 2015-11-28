@@ -2575,7 +2575,8 @@
 
 	#one:before {
 		/*background-image: url("../../images/Banner2.jpg");*/
-		background-image: url(" alexhiggs.github.io/Images/Banner2.jpg ");
+		background-image: url("alexhiggs.github.io/Images/Banner2.jpg");
+		background-image: url("Images/Banner2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
