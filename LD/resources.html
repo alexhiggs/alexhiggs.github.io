@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<title>LDResources</title>
+		
+		<meta name="viewport" content="width=device-width" />
+		<link media = "(max-device-width: 300px)" rel = 'stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="ld.css">
+		
+
+		
+		
+
+	</head>
+	<body  id ="lexie";>
+	
+	<div class=background1>LD:Resources</div>
+	
+
+	
+  
+		<div class = navi>
+		
+	<ul>
+		<li><a href ="index.html">Home</a></li>
+		<li><a href ="about.html">About</a></li>
+		<li><a href ="resources.html">Resources</a></li>
+		
+		
+		<!--<div class = "topcorner"><li><a href ="login.php">Log In</a></button></li></div>-->
+		</div>
+		</div>
+		</div>	
+		
+	
+<nav class="w3-sidenav w3-light-grey w3-card-2" style="width:130px; position:fixed; margin:0;">
+  <div class="w3-container" >
+    <h5>Resources</h5>
+  </div>
+  <a href="#" class="tablink" onclick="openCity(event, 'Audio')">Audio</a>		
+  <a href="#" class="tablink" onclick="openCity(event, 'Visual')">Visual</a>		
+  <a href="#" class="tablink" onclick="openCity(event, 'Memory')">Goal Setting</a>
+  <a href="#" class="tablink" onclick="openCity(event, 'Legal')">Legal</a>
+  <a href="#" class="tablink" onclick="openCity(event, 'Misc')">Misc</a>
+</nav>
+	
+
+<div style="margin-left:130px; position:relative;">
+
+  <div id="Audio" class="w3-container city">
+    <h2>Details</h2>
+    <h3>One of our most loved products!</h3>
+    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+  <div id="Visual" class="w3-container city">
+    <h2>Video Demo</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+  </div>
+
+  <div id="Goal Setting" class="w3-container city">
+    <h2>Goal Setting</h2>
+    <h4>Best toy ever!</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut erat convallis, volutpat neque ullamcorper, imperdiet urna. 	Cras mollis, diam volutpat volutpat luctus, sapien magna hendrerit est, nec rhoncus ligula tellus vitae magna. In pretium finibus 	augue. Etiam sed semper magna. Cras tempor, lectus a blandit dignissim, ipsum turpis suscipit est, vel rutrum ante arcu id </p>
+ </div>
+ 
+  <div id="Legal" class="w3-container city">
+    <h2>Legal</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+  </div>
+  
+  <div id="Misc" class="w3-container city">
+    <h2>Misc</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+  </div>
+  
+</div>
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+		
+		
+		
+		
+		
+	 
+
+
+	
+	
+	<!------------------------->
+
+	
+
+	
+		
+
+
+</div>
+
+  
+ 
+	</body>
+	
+	</html>
+	

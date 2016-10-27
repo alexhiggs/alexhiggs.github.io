@@ -1,0 +1,262 @@
+ 
+
+/* @font-face{font-family: LexieReadable-Regular; 
+	 src: url('LexieReadable-Regular.ttf');
+	 }
+ @font-face{font-family: LexieReadable-Bold; font-weight: bold; src: url('LexieReadable-Bold.ttf')}*/
+ 
+	 
+	/* h1 {font-family: LexieReadable-Bold, bold sans-serif;}
+	 
+	 p { font-family: LexieReadable-Regular,  sans-serif; }*/
+	 
+	 .color {
+		 background-color: fuchsia;
+		 opacity: 0.8;
+	 }
+	 
+.box {
+
+margin: 1em;
+
+padding:2em;
+
+
+
+}
+
+.overflow{
+	overflow: scroll;
+}
+
+
+
+h1, h2, h3 {
+	font-family: Antonio-Regular;
+}
+.background1{
+   background: url(images/womanbook.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: Antonio-Bold;
+   font-weight: bolder;
+   font-size: 6em;
+   
+}
+
+.background2{
+   background: url(images/womancomp.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: Antonio-Bold;
+   font-weight: bolder;
+   font-size: 6em;
+   
+}
+
+.background3{
+   background: url(images/twowork.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: Antonio-Bold;
+   font-weight: bolder;
+   font-size: 6em;
+   
+}
+
+.background5{
+	 background: url(images/womanRed.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: Antonio-Bold;
+   font-weight: bolder;
+   font-size: 6em;
+   }
+
+.background4{
+   background: url(images/things.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   font-family: Antonio-Bold;
+   color: white;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 6em;
+   
+   }
+   
+   
+   .background{
+	 background: url(images/thing2.jpg)no-repeat top center fixed;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: Antonio-Bold;
+   font-weight: bolder;
+   font-size: 6em;
+
+}
+
+button
+{
+    font-family: Antonio-Regular;
+    text-color: white;
+    background-color: white;
+    border-radius: 10%;
+    border-color: #456990;
+    padding: .5em;
+}
+.button p {
+	color:white;
+}
+
+.container{
+	border-color: #114B5F;
+}
+.w3-twothird {
+	background-color: #028090;
+	font: white;
+	
+}
+.w3-twothird p, .w3-twothird h2{
+	color:white;
+}
+
+.footer {
+  position:relative;
+  text-align: center;
+  opacity: 0.7;
+  background-color: #456990;
+  height: 4em;
+  width: 100%;
+  bottom: 0;
+  
+  
+ 
+}
+/*sticky*/
+.wrap {
+  width: 320px;
+  border: 1px solid #ccc;
+  height: 480px;
+  overflow: auto;
+  position: relative;
+}
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 60px;
+  .menu-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px;
+  }
+  .fix-search & {
+    background: #eee;
+  }
+}
+
+
+.top {
+  height: 250px;
+  padding-top: 40px;
+}    
+/*nav stuff*/    
+    
+ ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background:#028090;
+	
+}
+li{
+	float: left;
+	
+}
+li a{
+	
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #114B5F;
+	
+}
+.active{
+	background-color: #114B5F;
+}
+
+.navi{
+	position: inherit;
+	width:100%;
+	top:0;
+	left:15;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+    overflow: auto; 
+}
+
+.whitespace {
+	font-family: Antonio-Light;
+	background-color: white;
+	color:black;
+	font-size: medium;
+	margin: 15% 25% 50% 25%;
+	padding: 1em;
+	text-align: justify;
+	
+	
+	
+}
+
+
+
+  
+
+	 
+
+

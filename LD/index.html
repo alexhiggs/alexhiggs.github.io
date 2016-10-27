@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>LearningDifferently</title>
+		
+		<meta name="viewport" content="width=device-width" />
+		<link media = "(max-device-width: 300px)" rel = 'stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="ld.css">
+	</head>
+	
+	
+
+	<body  id ="lexie">
+		
+<script>
+	/*change fint to lexie
+    function changeFont() {
+	document.getElementById("lexie").style.fontFamily = "LexieReadable-Regular";
+	}
+	
+	function changeFont() {
+	document.getElementById("lexie").style.fontFamily = "LexieReadable-Regular";
+	}*/
+	
+	function changeFont() {
+	document.body.style.fontFamily = "LexieReadable-Regular";
+	}
+	
+	
+	
+	function reset() {
+	document.body.style.fontFamily = "Arial";
+	}
+		
+	function resizeText(multiplier) {
+  if (document.body.style.fontSize == "") {
+    document.body.style.fontSize = "1.0em";
+  }
+  document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
+}
+
+
+$(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 70;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+	
+	function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}	
+
+</script>
+
+
+<div class=background1>Learning Differently</div>
+
+	
+  
+		<div class = navi>
+		
+	<ul>
+		<li><a href ="index.html">Home</a></li>
+		<li><a href ="about.html">About</a></li>
+		<li><a href ="resources.html">Resources</a></li>
+		
+		
+		<!--<div class = "topcorner"><li><a href ="login.php">Log In</a></button></li></div>-->
+		</div>
+		</div>
+		</div>	
+		
+		
+		
+	 
+   
+<div class = box>
+
+	<a href=colorHome.html><p>This site is designed for readability for people with LDs</p></a>
+		<button type="button" onclick="changeFont()">Set font</button>
+		<button type="button" onclick="reset()">Reset font</button>
+		<button type="button" onclick="resizeText(1)"> Increase Font Size </button>
+		<button type="button" onclick="resizeText(-1)"> Decrease Font Size </button>
+
+		<div>
+		<h1>Learning Differently</h1>
+		<div class="w3-container">
+</div>
+		</div>
+
+<div class="w3-row w3-border">
+<div class="w3-twothird w3-container">
+  <h2>Learning Differently</h2>  
+  <p class="lexie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum quam, ultricies sed nisl ac, porta tempus dui. Sed posuere vestibulum aliquam. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac</p>
+  
+</div>
+<div class="w3-third w3-container">
+  <h2>Thing 1</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum quam, ultricies sed nisl ac, porta tempus dui. Sed posuere vestibulum aliquam. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac. </p>
+</div>
+</div>
+<br>
+</div>
+<div class=background2>Higher Ed.</div>
+	<div class=box>
+<div class="w3-row w3-border">
+<div class="w3-third w3-container">
+  <h2>Academia</h2>
+  <p>Community college, four year college, grad school and beyond. 
+  </br></br></br>
+  More more info and resources please click here.
+  </p>
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Surviving and Succeeding in Higher Education</h2>  
+  <p>The w3-twothird class uses 66% of parent container. Sed ipsum quam, ultricies sed nisl ac, porta tempus dui. Sed posuere vestibulum aliquam. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+</div>
+	</div>
+
+<div class=background3>Workplace</div>
+<div class = box>
+	<div class=box>
+<div class="w3-row w3-border">
+<div class="w3-twothird w3-container">
+  <h2>Navigating Work</h2>  
+  <p class="lexie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum quam, ultricies sed nisl ac, porta tempus dui. Sed posuere vestibulum aliquam. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac. Morbi porta erat ut tincidunt vestibulum. Praesent lectus purus, sollicitudin eget sagittis eget, maximus quis turpis. Nunc gravida laoreet gravida. Phasellus mauris odio, interdum sed gravida sed, venenatis nec urna. Aliquam lobortis mauris dolor, sed condimentum mauris interdum ac</p>
+  
+</div>
+<div class="w3-third w3-container">
+  <h2>Career</h2>
+  <p>Entry level, mid-career, changing careers, love your job or hate it. 
+  </br></br></br>
+  More more info and resources please click here.
+  </p>
+</div>
+
+</div>
+
+
+	</div>
+</div>
+</div>
+	
+	<div class="footer">
+		<p>Contact ahiggs at mills.edu</br>All images from Unsplash</p>
+	</div>
+	
+		
+
